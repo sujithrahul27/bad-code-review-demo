@@ -51,7 +51,7 @@ public class UserService {
 
         Scanner sc = new Scanner(System.in);
         String password = "admin12345";
-        System.out.println("Enter name:");
+        System.out.println("Enter  your name:");
         String name = sc.nextLine();
 
         List<String> users = getUsers(name);
