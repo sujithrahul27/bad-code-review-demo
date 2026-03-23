@@ -50,6 +50,7 @@ public class UserService {
         connect();
 
         Scanner sc = new Scanner(System.in);
+        String password = "admin12345";
         System.out.println("Enter name:");
         String name = sc.nextLine();
 
